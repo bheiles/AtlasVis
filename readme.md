@@ -18,11 +18,17 @@ Corresponding author: baptiste.heiles@gmail.com
 
 ## Associated dataset
 The associated dataset are available at this link during the whole review process and will be made available to the public using a Zenodo repository upon publication.
-1. "V1.mat" : a matrix file containing density of microbubbles
-3. "V2.mat" : a matrix file containing normed-velocity of microbubbles tracked
-4. "V3.mat" : a matrix file containing normed-velocity <b>with</b> encoded sign. The velocities towards the top of the image are assigned the negative sign.
+1. "Density.mat" : a matrix file containing density of microbubbles
+3. "NormedVelocity.mat" : a matrix file containing normed-velocity of microbubbles tracked
+4. "SignedVelocity.mat" : a matrix file containing normed-velocity <b>with</b> encoded sign. The velocities towards the top of the image are assigned the negative sign.
 
 ## Usage
+All the different panels are explained in the <b>Interface</b> section.
+
+At the execution, simply start by loading the dataset you want to explore using the "Load Vol 1" button and selecting either "Density.mat", "NormedVelocity.mat", "SignedVelocity.mat". Wait until the busy lamp turns green again (can take up to 15 minutes) and the load the atlas files using the "Load atlas" button and selecting the matrix file "AtlasMoved.mat". When all the data has been loaded, you should be able to explore the dataset by using the different controls explained in the next section.
+
+
+## Interface
 After opening the app, you will be faced with a blank graphical interface allowing you to load and explore 3 different types of data obtained from 3D Ultrasound Localization Microscopy of the whole rat brain.
   
 <a href="https://github.com/bheiles/AtlasVis/blob/main/Images/initialization.png"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/initialization.png" width="478" height="300"/></a>
@@ -31,7 +37,7 @@ It is composed of 4 panels:
 
 <b>1. Panel "Load and parameters"</b>
 
-  a) "Load Vol 1" : this is the load button. Click on it to load the 3D ULM data (either  V1, V2 or V3). This step takes a while when the volumes are big
+  a) "Load Vol 1" : this is the load button. Click on it to load the 3D ULM data (either  Density, Normed velocity or Signed velocity). This step takes a while when the volumes are big
   
   b) "Load atlas" : this will load the atlas registered to the volume. Everytime you change slice, a partial section of the atlas will be loaded to prevent overflowing the memory
   
@@ -45,7 +51,7 @@ It is composed of 4 panels:
   
   b) "Caxis" : this controls the color axis and is scaled according to min and max values of the matrix loaded. Please note that to increase the dynamic range of small vessels, square root compression is computed for density based renderings, and 3rd order root is computed for velocity based renderings.
   
-  c) "Type" : this dropdown menu allows to select which kind of data you have loaded: V1 = density, V2 = normed velocity, V3 = signed velocity.
+  c) "Type" : this dropdown menu allows to select which kind of data you have loaded, and will change the colormap accordingly.
   
 <b>3. Panel "Explore and measure"</b>
 
@@ -77,4 +83,11 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT]
+CC BY-NC-SA 4.0
+
+
+## Disclaimer
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS AND CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ 
+
