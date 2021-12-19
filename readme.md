@@ -65,13 +65,13 @@ It is composed of 4 panels:
   
   d) "Select center" : this button will draw a cross-hair on the display. Simply press-down the left button of your mouse to fix the cross-hair and record the position. The algorithm will then take that position as an input. It will calculate the center position of the vessel according to this position, compute the surface orthogonal to the direction of the vessel and draw the 3D velocity profile on the 1st axes as a surface. The velocity profiles in each direction are represented in the background of the 3D plot. The two profiles along the two directions are also represented in the two axes below.
   
-  <a href="https://github.com/bheiles/AtlasVis/blob/main/Images/crosshair.PNG"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/crosshair.PNG" width="202" height="150"/></a>
+  <a href="https://github.com/bheiles/AtlasVis/blob/main/Images/crosshair.PNG"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/crosshair.PNG" width="404" height="300"/></a>
   
 <b>4. Panel "Result"</b>
 
   This displays the results of the algorithm used to get the velocity profiles and diameters based on the cross-hair position selected. The algorithm will then take that position as an input. It will calculate the center position of the vessel according to this position, compute the surface orthogonal to the direction of the vessel and draw the 3D velocity profile on the 1st axes as a surface. The velocity profiles in each direction are represented in the background of the 3D plot. The two profiles along the two directions are also represented in the two axes below.
   
-   <a href="https://github.com/bheiles/AtlasVis/blob/main/Images/result.PNG"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/result.PNG" width="107" height="187"/></a>
+   <a href="https://github.com/bheiles/AtlasVis/blob/main/Images/result.PNG"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/result.PNG" width="214" height="374"/></a>
    
   a) The two offset spinners can be modified if the user thinks the mid-line taken by the algorithm as the center of the vessel is slightly off (i.e the maximum of the velocity is not centered around 0 in the two plots below)
   
