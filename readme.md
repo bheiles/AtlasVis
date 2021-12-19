@@ -64,11 +64,12 @@ It is composed of 4 panels:
   c) "Slice #" : this spinner allows to navigate along the direction chosen with voxel size step.
   
   d) "Select center" : this button will draw a cross-hair on the display. Simply press-down the left button of your mouse to fix the cross-hair and record the position. The algorithm will then take that position as an input. It will calculate the center position of the vessel according to this position, compute the surface orthogonal to the direction of the vessel and draw the 3D velocity profile on the 1st axes as a surface. The velocity profiles in each direction are represented in the background of the 3D plot. The two profiles along the two directions are also represented in the two axes below.
+  <a href="https://github.com/bheiles/AtlasVis/blob/main/Images/crosshair.png"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/crosshair.png" width="202" height="150"/></a>
   
 <b>4. Panel "Result"</b>
 
   This displays the results of the algorithm used to get the velocity profiles and diameters based on the cross-hair position selected. The algorithm will then take that position as an input. It will calculate the center position of the vessel according to this position, compute the surface orthogonal to the direction of the vessel and draw the 3D velocity profile on the 1st axes as a surface. The velocity profiles in each direction are represented in the background of the 3D plot. The two profiles along the two directions are also represented in the two axes below.
-  
+   <a href="https://github.com/bheiles/AtlasVis/blob/main/Images/result.png"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/result.png" width="107" height="187"/></a>
   a) The two offset spinners can be modified if the user thinks the mid-line taken by the algorithm as the center of the vessel is slightly off (i.e the maximum of the velocity is not centered around 0 in the two plots below)
   
   b) D1, D2 and Speed measure the diameters in the two direction of the vessel and the maximum speed.
@@ -89,5 +90,3 @@ CC BY-NC-SA 4.0
 ## Disclaimer
 
 THIS SOFTWARE IS PROVIDED BY THE AUTHORS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS AND CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- 
-
