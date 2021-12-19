@@ -19,7 +19,7 @@ The associated dataset are available at this link during the whole review proces
 
 ## Usage
 After opening the app, you will be faced with a blank graphical interface allowing you to load and explore 3 different types of data obtained from 3D Ultrasound Localization Microscopy of the whole rat brain.
-![Initialization](https://github.com/bheiles/AtlasVis/blob/main/Images/initialization.png "Initial run" | with="100" height="100")
+![Initialization](https://github.com/bheiles/AtlasVis/blob/main/Images/initialization.png "Initial run" | width="100" height="100")
 
 import foobar
 
