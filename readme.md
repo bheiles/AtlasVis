@@ -18,6 +18,7 @@ Corresponding author: baptiste.heiles@gmail.com
 
 ## Requirements
 The associated dataset being quite large and expensive to load, it is recommended that a powerful enough computer is used. This app was tested on an Intel i9 @2.90GHz, with 128Go ram and a GTX1090 graphics card. Mimimum amount of  memory recommended is 64Go.
+Note: For low memory configuration, please use v1.1 as partial loading was implemented.
 
 ## Associated dataset
 The associated dataset are available at this [link](https://surfdrive.surf.nl/files/index.php/s/l5hS19lQxbqA5vf) during the whole review process and will be made available to the public using a Zenodo repository upon publication.
