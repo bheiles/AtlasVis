@@ -12,7 +12,7 @@ Corresponding author: baptiste.heiles@gmail.com
 
 ## Installation
 
-1. Download the executable file from the github repository
+1. Download the executable file from the github repository : "AtlasVis_v1_1.exe"
 2. Double-click the executable file and follow the installation instructions
 3. Run the app named AtlasVis from the Windows startup panel
 
@@ -29,14 +29,18 @@ The associated dataset are available at this [link](https://surfdrive.surf.nl/fi
 ## Usage
 All the different panels are explained in the <b>Interface</b> section.
 
-At the execution, simply start by loading the dataset you want to explore using the "Load Vol 1" button and selecting either "Density.mat", "NormedVelocity.mat", "SignedVelocity.mat". Wait until the busy lamp turns green again (can take up to 15 minutes) and the load the atlas files using the "Load atlas" button and selecting the matrix file "AtlasMoved.mat". When all the data has been loaded, you should be able to explore the dataset by using the different controls explained in the next section.
+At the execution, simply start by loading the dataset you want to explore using the "Load Vol 1" button and selecting either "Density.mat", "NormedVelocity.mat", "SignedVelocity.mat".
+
+Wait until the busy lamp turns green again (can take up to 15 minutes) and the load the atlas files using the "Load atlas" button and selecting the matrix file "AtlasMoved.mat".
+
+When all the data has been loaded, you should be able to explore the dataset by using the different controls explained in the next section.
 
 
 ## Interface
 After opening the app, you will be faced with a blank graphical interface allowing you to load and explore 3 different types of data obtained from 3D Ultrasound Localization Microscopy of the whole rat brain.
 
 <p align="center">
-<a href="https://github.com/bheiles/AtlasVis/blob/main/Images/initialization.png"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/initialization.png" width="478" height="300"/></a>
+<a href="https://github.com/bheiles/AtlasVis/blob/main/ResourceForReadme/Images/initialization.png"><img src="https://github.com/bheiles/AtlasVis/blob/main/ResourceForReadme/Images/initialization.png" width="478" height="300"/></a>
 </p>
 
 It is composed of 4 panels:
@@ -72,14 +76,14 @@ It is composed of 4 panels:
   d) "Select center" : this button will draw a cross-hair on the display. Simply press-down the left button of your mouse to fix the cross-hair and record the position. The algorithm will then take that position as an input. It will calculate the center position of the vessel according to this position, compute the surface orthogonal to the direction of the vessel and draw the 3D velocity profile on the 1st axes as a surface. The velocity profiles in each direction are represented in the background of the 3D plot. The two profiles along the two directions are also represented in the two axes below.
   
 <p align="center">
-  <a href="https://github.com/bheiles/AtlasVis/blob/main/Images/crosshair.PNG"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/crosshair.PNG" width="404" height="300"/></a>
+  <a href="https://github.com/bheiles/AtlasVis/blob/main/ResourceForReadme/Images/crosshair.PNG"><img src="https://github.com/bheiles/AtlasVis/blob/main/ResourceForReadme/Images/crosshair.PNG" width="404" height="300"/></a>
 </p>
 <b>4. Panel "Result"</b>
 
   This displays the results of the algorithm used to get the velocity profiles and diameters based on the cross-hair position selected. The algorithm will then take that position as an input. It will calculate the center position of the vessel according to this position, compute the surface orthogonal to the direction of the vessel and draw the 3D velocity profile on the 1st axes as a surface. The velocity profiles in each direction are represented in the background of the 3D plot. The two profiles along the two directions are also represented in the two axes below.
 
 <p align="center">
-   <a href="https://github.com/bheiles/AtlasVis/blob/main/Images/result.PNG"><img src="https://github.com/bheiles/AtlasVis/blob/main/Images/result.PNG" width="214" height="374"/></a>
+   <a href="https://github.com/bheiles/AtlasVis/blob/main/ResourceForReadme/Images/result.PNG"><img src="https://github.com/bheiles/AtlasVis/blob/main/ResourceForReadme/Images/result.PNG" width="214" height="374"/></a>
   </p>
    
   a) The two offset spinners can be modified if the user thinks the mid-line taken by the algorithm as the center of the vessel is slightly off (i.e the maximum of the velocity is not centered around 0 in the two plots below)
